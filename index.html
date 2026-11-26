@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="造用所：從工作到日常，用 AI 把需要做成實用小工具。Vincent 的作品與實驗。">
+  <meta name="theme-color" content="#284f3c">
+  <meta property="og:title" content="造用所｜把想法，做成用得上的工具">
+  <meta property="og:description" content="從自己的需要出發，分享用得上的小工具。">
+  <meta property="og:type" content="website">
+  <title>造用所｜把想法，做成用得上的工具</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./projects.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#works">跳至作品牆</a>
+  <main>
+    <nav aria-label="主要導覽">
+      <a class="brand" href="./" aria-label="造用所首頁"><span class="brand-mark" aria-hidden="true">造</span>造用所<span class="brand-en">ZAOYONG</span></a>
+      <a class="profile" href="https://github.com/a630050" target="_blank" rel="noopener noreferrer">Vincent / GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+    <header class="hero">
+      <div class="eyebrow"><span></span> SMALL TOOLS, REAL USE.</div>
+      <h1>把生活裡的小麻煩，<br>做成<span class="accent">用得上</span>的小工具。</h1>
+      <p>這裡收藏我用 AI 一起做出的作品。<br>從工作到日常，有需要，就動手做一個。</p>
+      <div class="hero-note"><span aria-hidden="true">✳</span> 從自己的需要出發，也分享給需要的人。</div>
+      <div class="hero-art" aria-hidden="true"><div class="art-label">IDEA → BUILD → USE</div><div class="tile tile-a">想</div><div class="tile tile-b">造</div><div class="tile tile-c">用</div><div class="art-caption">a little idea.<br>a useful thing.</div></div>
+    </header>
+    <section id="works" aria-labelledby="works-title">
+      <div class="toolbar"><div><h2 id="works-title">作品牆 <span id="count"></span></h2><p class="section-note">一點想法，一件作品。</p></div><label class="search" id="search-wrap" hidden><span class="sr-only">搜尋作品、簡介或標籤</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋作品或標籤…" autocomplete="off"></label></div>
+      <p id="demo-note" class="demo-note" hidden>版式預覽：以下皆為虛構範例，示範圖片、簡介、膠囊標籤與連結配置。</p>
+      <div id="grid" class="grid"></div>
+      <div id="empty" class="empty" hidden><span class="empty-mark" aria-hidden="true">✳</span><h3>作品正在整理中</h3><p>一些從日常需要長出來的小工具，準備在這裡與你見面。</p></div>
+      <p id="no-results" class="no-results" role="status" hidden>沒有符合的作品，試試其他關鍵字。</p>
+      <p id="results-status" class="sr-only" role="status" aria-live="polite"></p>
+      <noscript><p class="empty">請啟用 JavaScript 以瀏覽作品卡片。</p></noscript>
+    </section>
+    <footer><span>© <span id="year">2026</span> 造用所 · Vincent</span><span>Made with curiosity &amp; AI.</span></footer>
+  </main>
+</body>
+</html>
