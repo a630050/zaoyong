@@ -77,13 +77,19 @@
   }
   function render(query = '') {
     const normalized = query.trim().toLocaleLowerCase();
-    const filtered = projects.filter(project => [project.title, text(project.description), ...tagsFor(project)].join(' ').toLocaleLowerCase().includes(normalized));
+    const filtered = projects.filter(project => [project.title, text(project.painPoint), text(project.description), ...tagsFor(project)].join(' ').toLocaleLowerCase().includes(normalized));
     grid.replaceChildren();
     for (const project of filtered) {
       const card = make('article', 'card');
       card.append(isPreview ? demoCover(project.demo) : projectCover(project));
       const info = make('div', 'info');
-      info.append(make('h3', '', project.title), make('p', 'description', text(project.description)));
+      info.append(make('h3', '', project.title));
+      if (text(project.painPoint).trim()) {
+        const pain = make('div', 'pain-point');
+        pain.append(make('h4', 'copy-label', '解決痛點'), make('p', '', project.painPoint));
+        info.append(pain, make('h4', 'copy-label intro-label', '作品介紹'));
+      }
+      info.append(make('p', 'description', text(project.description)));
       const tags = make('div', 'tags');
       for (const value of tagsFor(project)) {
         const tag = make('button', 'tag', value);

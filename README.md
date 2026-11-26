@@ -15,12 +15,15 @@ Vincent 的 vibe coding 作品牆。暖白與深綠的簡潔卡片版式，不�
 
 ## 新增作品
 
+每張正式卡片依序呈現「解決痛點 → 作品介紹 → 膠囊標籤 → 作品連結」。`painPoint` 填入使用情境與困擾，`description` 說明工具如何協助；搜尋包含痛點文字。
+
 1. 將作品截圖放進 `assets/`，建議使用 1600 × 1000 的 WebP、PNG 或 JPEG；主要內容放在中央，圖片會以 16:10 等比例裁切。
 2. 編輯 `projects.js`，在 `window.ZAOYONG_PROJECTS` 陣列最前面新增一筆：
 
 ```js
 {
   title: '你的作品名稱',
+  painPoint: '使用者在什麼情境下，遇到什麼困擾？',
   description: '用一至兩句說明工具用途。',
   image: './assets/your-tool.webp',
   imageAlt: '作品操作畫面的簡短說明',
