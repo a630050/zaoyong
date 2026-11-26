@@ -140,7 +140,7 @@ window.ZAOYONG_PROJECTS = [
   {
     "title": "BookLabel｜圖書標籤套印",
     "painPoint": "補印書標或登錄號標籤時，得挑選書庫資料、重新排版，再反覆調整貼紙位置；即使只印幾張，也要處理整套列印設定。",
-    "description": "匯入書庫資料，挑選要套印的書籍，設定書標或登錄號標籤版型與位置，下載 PDF。（適用台北市國中圖書館系統情境）",
+    "description": "匯入書庫資料，挑選要套印的書籍，設定書標或登錄號標籤版型與位置，下載 PDF。（適用台北市國小圖書館系統情境）",
     "image": "./assets/booklabel.jpg",
     "imageAlt": "BookLabel 的書庫匯入、套印序列、標籤模板與列印位置設定",
     "serviceUrl": "https://a630050.github.io/BookLabel/",
@@ -154,7 +154,7 @@ window.ZAOYONG_PROJECTS = [
   {
     "title": "書籍催還通知單產生器",
     "painPoint": "圖書館系統匯出的借閱報表，不一定適合直接發給老師或學生；館員還得整理班級、合併讀者書單，再排成通知單，重複抄整容易遺漏。",
-    "description": "匯入借閱通知 Excel，整併同一位讀者的書單，產生適合館員與學生使用的催還通知單。（適用台北市國中圖書館系統情境）",
+    "description": "匯入借閱通知 Excel，整併同一位讀者的書單，產生適合館員與學生使用的催還通知單。（適用台北市國小圖書館系統情境）",
     "image": "./assets/overdue-slip-generator.jpg",
     "imageAlt": "書籍催還通知單產生器的多檔 Excel 匯入及兩種通知單輸出介面",
     "serviceUrl": "https://a630050.github.io/overdue-slip-generator/",
