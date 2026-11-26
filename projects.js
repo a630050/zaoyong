@@ -12,6 +12,24 @@
 // }
 window.ZAOYONG_PROJECTS = [
   {
+    title: '跨語言即時對講字幕機',
+    description: '透過房間碼加入跨語言對話，設定自己的語言，以即時字幕輔助溝通。',
+    image: './assets/cross-lang-meeting.jpg',
+    imageAlt: '跨語言即時對講字幕機的暱稱、房間碼與辨識翻譯語言設定介面',
+    serviceUrl: 'https://a630050.github.io/cross_lang_meeting/',
+    sourceUrl: 'https://github.com/a630050/cross_lang_meeting',
+    tags: ['跨語溝通', '即時字幕', '語音翻譯']
+  },
+  {
+    title: '菜單發想製作程式',
+    description: '規劃每天的餐點，搭配 AI 菜色發想，整理菜單與備菜清單。',
+    image: './assets/menu-planner.jpg',
+    imageAlt: '使用者 Notion 說明頁提供的菜單討論程式畫面，含菜單規劃與 AI 靈感獲取區',
+    serviceUrl: 'https://gemini.google.com/share/dafd24b55061',
+    sourceUrl: '',
+    tags: ['菜單規劃', 'AI 發想', 'Gemini']
+  },
+  {
     title: 'Samba Beatmaker｜森巴鼓團練習',
     description: '編排多種森巴打擊樂器的節奏，調整速度、強弱與左右手提示，支援合奏、輪奏與 MP3 匯出。',
     image: './assets/samba-beatmaker.jpg',
