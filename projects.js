@@ -2,6 +2,16 @@
 // 未提供的網址留空；圖片放 assets/。
 window.ZAOYONG_PROJECTS = [
   {
+    "title": "足跡影片｜Footprint Film",
+    "painPoint": "旅行照片拍了很多，單純輪播卻看不出一路去了哪裡；想串成有路線、有故事的回憶影片，又得自己整理地點、安排順序並剪輯。",
+    "description": "選取旅行照片，自動分站並搭配地圖軌跡動畫，製作旅程影片；照片在本機處理，可編輯、預覽與輸出。",
+    "image": "./assets/footprint-film.jpg",
+    "imageAlt": "足跡影片的旅行照片匯入畫面，提供自動分站、地圖軌跡動畫與本機處理說明",
+    "serviceUrl": "https://a630050.github.io/footprint-film/",
+    "sourceUrl": "https://github.com/a630050/footprint-film",
+    "tags": ["旅行回憶", "地圖動畫", "照片成片"]
+  },
+  {
     "title": "PrintAlign｜精準合併列印",
     "painPoint": "製作需要套印姓名、分數等資料的卡牌時，逐張替換、調整位置很費工；使用 Word 合併列印，又容易卡在繁瑣設定、文字對位與一頁多張的排版。",
     "description": "匯入底圖與 Excel／CSV 名單，拖拉文字精準對位，批次產生合併列印 PDF。",
