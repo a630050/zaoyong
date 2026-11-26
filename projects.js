@@ -31,7 +31,7 @@ window.ZAOYONG_PROJECTS = [
   },
   {
     title: '菜單發想製作程式',
-    description: '規劃每天的餐點，搭配 AI 菜色發想，整理菜單與備菜清單。',
+    description: '規劃每天的餐點，搭配 AI 菜色發想，快速輸出飯店等級精美菜單與備菜清單。',
     image: './assets/menu-planner.jpg',
     imageAlt: '使用者 Notion 說明頁提供的菜單討論程式畫面，含菜單規劃與 AI 靈感獲取區',
     serviceUrl: 'https://gemini.google.com/share/dafd24b55061',
