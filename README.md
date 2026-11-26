@@ -7,7 +7,7 @@ Vincent 的 vibe coding 作品牆。暖白與深綠的簡潔卡片版式，不�
 - 正式首頁：https://a630050.github.io/zaoyong/
 - 版式示範：https://a630050.github.io/zaoyong/?preview=1
 
-版式示範的三件作品、數字及畫面皆為虛構，僅展示排版。正式作品牆已收錄跨語言即時對講字幕機、菜單發想製作程式、Samba Beatmaker、DistroCraft、CSV 專用處理器、籃球戰術板、PDF 簽名套印、EdgeSRT、BookLabel、書籍催還通知單產生器與 PitchTutor，共十一件作品。
+版式示範的三件作品、數字及畫面皆為虛構，僅展示排版。正式作品牆已收錄 PrintAlign、跨語言即時對講字幕機、菜單發想製作程式、Samba Beatmaker、DistroCraft、CSV 專用處理器、籃球戰術板、PDF 簽名套印、EdgeSRT、BookLabel、書籍催還通知單產生器與 PitchTutor，共十二件作品。
 
 菜單作品的簡介及封面依使用者提供的 [Notion 說明頁](https://springson.notion.site/00a8ffa413508239abcb010a8efd2077) 整理。Gemini 分享頁於 2026-11-26 檢查時顯示載入錯誤，保留使用者提供的原始連結；未確認實際操作功能，也沒有提供原始碼網址。
 

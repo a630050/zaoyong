@@ -12,6 +12,15 @@
 // }
 window.ZAOYONG_PROJECTS = [
   {
+    title: 'PrintAlign｜精準合併列印',
+    description: '匯入底圖與 Excel／CSV 名單，拖拉文字精準對位，批次產生合併列印 PDF。',
+    image: './assets/printalign.jpg',
+    imageAlt: 'PrintAlign 備份程式的版面裁切設定、文字對位與全版面即時預覽',
+    serviceUrl: 'https://a630050.github.io/PrintAlign/',
+    sourceUrl: 'https://github.com/a630050/PrintAlign',
+    tags: ['合併列印', 'Excel', 'PDF']
+  },
+  {
     title: '跨語言即時對講字幕機',
     description: '透過房間碼加入跨語言對話，設定自己的語言，以即時字幕輔助溝通。',
     image: './assets/cross-lang-meeting.jpg',
