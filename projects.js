@@ -12,6 +12,15 @@
 // }
 window.ZAOYONG_PROJECTS = [
   {
+    title: 'Samba Beatmaker｜森巴鼓團練習',
+    description: '編排多種森巴打擊樂器的節奏，調整速度、強弱與左右手提示，支援合奏、輪奏與 MP3 匯出。',
+    image: './assets/samba-beatmaker.jpg',
+    imageAlt: 'Samba Beatmaker 的多樂器節奏格、速度設定與強弱提示介面',
+    serviceUrl: 'https://a630050.github.io/beatmaker-samba-V2/',
+    sourceUrl: 'https://github.com/a630050/beatmaker-samba-V2',
+    tags: ['森巴鼓', '節奏編排', '音樂練習']
+  },
+  {
     title: 'DistroCraft｜配電練習',
     description: '拖曳元件、拉線接電，透過通電動畫與短路跳脫模擬，練習基礎配電。',
     image: './assets/distrocraft.jpg',

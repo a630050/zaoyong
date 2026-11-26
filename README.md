@@ -7,7 +7,7 @@ Vincent 的 vibe coding 作品牆。暖白與深綠的簡潔卡片版式，不�
 - 正式首頁：https://a630050.github.io/zaoyong/
 - 版式示範：https://a630050.github.io/zaoyong/?preview=1
 
-版式示範的三件作品、數字及畫面皆為虛構，僅展示排版。正式作品牆已收錄 DistroCraft、CSV 專用處理器、籃球戰術板、PDF 簽名套印、EdgeSRT、BookLabel、書籍催還通知單產生器與 PitchTutor，共八件作品。
+版式示範的三件作品、數字及畫面皆為虛構，僅展示排版。正式作品牆已收錄 Samba Beatmaker、DistroCraft、CSV 專用處理器、籃球戰術板、PDF 簽名套印、EdgeSRT、BookLabel、書籍催還通知單產生器與 PitchTutor，共九件作品。
 
 首批作品簡介依各專案 README 或實際網頁介面整理；封面為 2026-11-26 擷取的實際網頁畫面。DistroCraft 使用內建配電模板，籃球戰術板使用內建快速開始，其餘為初始介面或使用說明；截圖不代表各工具全部功能均經測試。
 
